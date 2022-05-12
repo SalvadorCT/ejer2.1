@@ -36,12 +36,12 @@ main p {
     display: flex;
     justify-content: center;
     flex-basis: 20rem;
+    box-sizing: border-box;
 }
 .box01 img{
     display: flex;
     flex-wrap: wrap;
     padding: 11px;
-    border: 1px solid blue;
 }
 .box01 img:hover{
     transform: scale(1.05);
